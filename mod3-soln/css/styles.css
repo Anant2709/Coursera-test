@@ -1,0 +1,61 @@
+#header-nav {
+	background-color: #fcd12a; 
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-header h1 {
+	font-family: 'Algerian', sans-serif;
+	padding-right: 100px;
+	padding-top: 0px;
+	line-height: .75;
+}
+
+
+#nav-list {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 1.5em;
+}
+
+#collapsable-nav{
+	background-color: #d6cfc7;
+}
+
+.text { 
+	background-color: #fa8072;
+	
+}
+
+.text-title {
+	text-align: center;
+	font-size: 200%;
+	padding: 15px;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+@media (min-width: 768px) {
+	#collapsable-nav{
+		display: none !important;
+	}
+
+	.navbar-header h1 {
+		margin-top: 0px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.navbar-brand {
+    	padding-top: 10px;
+    	height: 80px;
+  	}
+
+	.navbar-header h1 {
+		padding-top: 10px;
+    	font-size: 5vw; 
+	}
+}
